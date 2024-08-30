@@ -1,0 +1,32 @@
+{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2024-08-30T09:31:57+0200",
+ "nonVisible": "true",
+ "iconName": "aiwebres/small-icon.png",
+ "methods": [{
+  "deprecated": "false",
+  "name": "sleep",
+  "description": "Executes a delay.",
+  "params": [{
+   "name": "ms",
+   "type": "number"
+  }]
+ }],
+ "blockProperties": [],
+ "helpUrl": "",
+ "licenseName": "",
+ "type": "it.marcoratto.ai2.delay.Delay",
+ "androidMinSdk": "7",
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "Delay",
+ "helpString": "SQLite database interface.",
+ "properties": [],
+ "events": [{
+  "deprecated": "false",
+  "name": "SleepFinished",
+  "description": "This event fires when the delay finished.",
+  "params": []
+ }]
+}
